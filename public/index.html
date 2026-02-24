@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniStream - Nonton Anime Subtitle Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Ani<span>Stream</span></div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Cari anime...">
+            <button onclick="handleSearch()"><i class="fas fa-search"></i></button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" onclick="router('home')" class="active">Home</a></li>
+            <li><a href="#" onclick="router('schedule')">Jadwal Rilis</a></li>
+            <li><a href="#" onclick="router('explore')">Explore</a></li>
+            <li><a href="#" onclick="router('genre')">Genre</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="app">
+        <!-- Konten akan dirender di sini oleh JavaScript -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 AniStream. Design inspired by Wibuku.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
